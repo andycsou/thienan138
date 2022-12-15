@@ -2,7 +2,6 @@
 
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <meta name="description" content="">
@@ -36,7 +35,8 @@
             <h3 class="masthead-brand" style="color:white"><b>Thienan138.com<br>GIẢI TRÍ ĐA PHƯƠNG TIỆN</b></h3>
             <nav>
               <ul class="nav masthead-nav" role="tablist">
-                <li class="active" role="presentation"><a href="#home" data-toggle="tab" role="tab">Về chúng tôi</a></li>
+                <li class="active" role="presentation"><a href="#home" data-toggle="tab" role="tab">Về chúng tôi</a>
+                </li>
                 <li role="presentation"><a href="#more" data-toggle="tab" role="tab">Các sản phẩm đang bán</a></li>
               </ul>
             </nav>
@@ -59,8 +59,10 @@
                 <div class="card-section is-active" id="about">
                   <div class="card-content">
                     <div class="card-subtitle">GIỚI THIỆU BẢN THÂN</div>
-                    <p class="card-desc">Là một sinh viên trẻ với nhiệt huyết và tinh thần học hỏi cao trong lĩnh vực lập trình,
-                      truyền thông, thương mại điện tử. Ân mong muốn có thể đưa ra các giải pháp tuyệt vời để có thể giải quyết
+                    <p class="card-desc">Là một sinh viên trẻ với nhiệt huyết và tinh thần học hỏi cao trong lĩnh vực
+                      lập trình,
+                      truyền thông, thương mại điện tử. Ân mong muốn có thể đưa ra các giải pháp tuyệt vời để có thể
+                      giải quyết
                       được vấn đề của bạn dù đó có là lĩnh vực nào đi chăng nữa 🍓
                     </p>
                   </div>
@@ -71,8 +73,8 @@
                           d="M15.997 3.985h2.191V.169C17.81.117 16.51 0 14.996 0c-3.159 0-5.323 1.987-5.323 5.639V9H6.187v4.266h3.486V24h4.274V13.267h3.345l.531-4.266h-3.877V6.062c.001-1.233.333-2.077 2.051-2.077z" />
                       </svg></a>
                     <a href="https://t.me/andycsou" target="_blank">
-                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telegram"
-                        viewBox="0 0 16 16">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-telegram" viewBox="0 0 16 16">
                         <path
                           d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.287 5.906c-.778.324-2.334.994-4.666 2.01-.378.15-.577.298-.595.442-.03.243.275.339.69.47l.175.055c.408.133.958.288 1.243.294.26.006.549-.1.868-.32 2.179-1.471 3.304-2.214 3.374-2.23.05-.012.12-.026.166.016.047.041.042.12.037.141-.03.129-1.227 1.241-1.846 1.817-.193.18-.33.307-.358.336a8.154 8.154 0 0 1-.188.186c-.38.366-.664.64.015 1.088.327.216.589.393.85.571.284.194.568.387.936.629.093.06.183.125.27.187.331.236.63.448.997.414.214-.02.435-.22.547-.82.265-1.417.786-4.486.906-5.751a1.426 1.426 0 0 0-.013-.315.337.337 0 0 0-.114-.217.526.526 0 0 0-.31-.093c-.3.005-.763.166-2.984 1.09z" />
                       </svg>
@@ -96,7 +98,8 @@
                       <div class="card-item" data-year="2020">
                         <div class="card-item-title">Tân sinh viên ngành Khoa Học Máy Tính tại <span>Trường Đại học Mở
                             TP.HCM</span></div>
-                        <div class="card-item-desc">Trở thành sinh viên và tiếp tục con đường học tập để tốt nghiệp.</div>
+                        <div class="card-item-desc">Trở thành sinh viên và tiếp tục con đường học tập để tốt nghiệp.
+                        </div>
                       </div>
                       <div class="card-item" data-year="2021">
                         <div class="card-item-title">Gia nhập quỹ học bổng <span>Lương Văn Can</span></div>
@@ -153,7 +156,7 @@
               const buttons = document.querySelectorAll(".card-buttons button");
               const sections = document.querySelectorAll(".card-section");
               const card = document.querySelector(".card");
-          
+
               const handleButtonClick = (e) => {
                 const targetSection = e.target.getAttribute("data-section");
                 const section = document.querySelector(targetSection);
@@ -166,18 +169,21 @@
                 e.target.classList.add("is-active");
                 section.classList.add("is-active");
               };
-          
+
               buttons.forEach((btn) => {
                 btn.addEventListener("click", handleButtonClick);
               });
-          
-          
+
+
             </script>
           </div>
 
           <!-- tab section 2 -->
           <div id="more" class="tab-pane fade" role="tabpanel">
-            <iframe class="airtable-embed" src="https://airtable.com/embed/shrlgFyl52vK6fSXK?backgroundColor=orange&viewControls=on" frameborder="0" onmousewheel="" width="100%" height="533" style="background: transparent; border: 1px solid #ccc;"></iframe>
+            <iframe class="airtable-embed"
+              src="https://airtable.com/embed/shrlgFyl52vK6fSXK?backgroundColor=orange&viewControls=on" frameborder="0"
+              onmousewheel="" width="100%" height="533"
+              style="background: transparent; border: 1px solid #ccc;"></iframe>
           </div>
 
         </div>
@@ -197,6 +203,282 @@
   <!-- NOTE: Must be embedded in HTML, not in JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 
+
+
+  <!--  -->
+
+  <script>
+    "use strict"; // Paul Slaymaker, paul25882@gmail.com
+    const body = document.getElementsByTagName("body").item(0);
+    body.style.background = "#000";
+    const TP = 2 * Math.PI;
+    const CSIZE = 400;
+
+    const ctx = (() => {
+      let d = document.createElement("div");
+      d.style.textAlign = "center";
+      body.append(d);
+      let c = document.createElement("canvas");
+      c.width = c.height = 2 * CSIZE;
+      d.append(c);
+      return c.getContext("2d");
+    })();
+    ctx.setTransform(1, 0, 0, 1, CSIZE, CSIZE);
+    ctx.lineCap = "round";
+    ctx.lineJoin = "round";
+
+    onresize = () => {
+      let D = Math.min(window.innerWidth, window.innerHeight) - 40;
+      ctx.canvas.style.width = D + "px";
+      ctx.canvas.style.height = D + "px";
+    }
+
+    const getRandomInt = (min, max, low) => {
+      if (low) return Math.floor(Math.random() * Math.random() * (max - min)) + min;
+      else return Math.floor(Math.random() * (max - min)) + min;
+    }
+
+    var colors = [];
+    var setColors = () => {
+      colors = [];
+      let colorCount = 4;
+      let hue = getRandomInt(180, 270);
+      for (let i = 0; i < colorCount; i++) {
+        let hd = Math.round(180 / colorCount) * i + getRandomInt(-10, 10);
+        let h = (hue + hd) % 360;
+        colors.splice(getRandomInt(0, colors.length + 1), 0, "hsl(" + h + ",98%,50%)");
+      }
+    }
+
+    var COUNT = 24;//getRandomInt(20,42);
+    var R = CSIZE / COUNT;
+    ctx.lineWidth = Math.round(2 * R - 4);
+
+    function RPath(initPoint, idx) {
+      initPoint.d = true;	// TODO, check if already true
+      this.dir = idx % 2;
+      this.pa = [initPoint];
+      if (this.dir) this.ka = [4, 3, 5];
+      else this.ka = [1, 2, 0];
+      this.gr = 0;
+      this.sh = 0;
+      this.l = 0;
+      this.kidx = idx;
+      this.grow = () => {
+        let pt = this.pa[this.pa.length - 1];
+        for (let ipt of this.ka) {
+          let cpt = pt.cpa[ipt];
+          if (!cpt) continue;
+          if (cpt.d) continue;
+          cpt.d = true;
+          this.pa.push(cpt);
+          this.gr++;
+          return true;
+        }
+        return false;
+      }
+      this.shrink = () => {
+        if (this.pa.length > 4) this.sh = 1;
+        else this.sh = 0;
+        if (this.pa.length < 4) return;
+        this.pa[0].d = false;
+        this.pa.shift();
+        this.sh = 1;
+        return;
+      }
+      this.getPath = () => {
+        let p = new Path2D();
+        if (!this.sh && !this.gr) {
+          p.moveTo(this.pa[1].x, this.pa[1].y);
+          for (let i = 2; i < this.pa.length; i++) {
+            p.lineTo(this.pa[i].x, this.pa[i].y);
+          }
+          return p;
+        }
+        if (this.sh) {
+          p.moveTo((1 - frac) * this.pa[0].x + frac * this.pa[1].x, (1 - frac) * this.pa[0].y + frac * this.pa[1].y);
+        } else p.moveTo(this.pa[0].x, this.pa[0].y);
+        for (let i = 1; i < this.pa.length - 2; i++) {
+          p.lineTo(this.pa[i].x, this.pa[i].y);
+        }
+        let pt2 = this.pa[this.pa.length - 2];
+        let pt3 = this.pa[this.pa.length - 1];
+        if (this.gr == 1) {
+          p.lineTo(pt2.x, pt2.y);
+          p.lineTo((1 - frac) * pt2.x + frac * pt3.x, (1 - frac) * pt2.y + frac * pt3.y);
+        } else if (this.gr == 2) {
+          if (frac < 0.5) {
+            let pt1 = this.pa[this.pa.length - 3];
+            let f = 2 * frac;
+            p.lineTo((1 - f) * pt1.x + f * pt2.x, (1 - f) * pt1.y + f * pt2.y);
+          } else {
+            let f = 2 * (frac - 0.5);
+            p.lineTo(pt2.x, pt2.y);
+            p.lineTo((1 - f) * pt2.x + f * pt3.x, (1 - f) * pt2.y + f * pt3.y);
+          }
+        } else {
+          p.lineTo(pt2.x, pt2.y);
+          p.lineTo(pt3.x, pt3.y);
+        }
+        return p;
+      }
+    }
+
+    var removePath = (idx) => {
+      for (let i = 0; i < rpa[idx].pa.length; i++) rpa[idx].pa[i].d = false;
+      rpa.splice(idx, 1);
+    }
+
+    function start() {
+      if (stopped) {
+        requestAnimationFrame(animate);
+        stopped = false;
+      } else {
+        stopped = true;
+      }
+    }
+    ctx.canvas.addEventListener("click", start, false);
+
+    var stopped = true;
+    var t = 1;
+    var frac = 0;
+    var dur = 14;
+    function animate(ts) {
+      if (stopped) return;
+      t++;
+      if (t == dur) {
+        for (let i = 0; i < rpa.length; i++) {
+          rpa[i].gr = 0;
+          if (!rpa[i].grow()) rpa[i].l++;
+          else rpa[i].l = 0;
+          if (rpa[i].pa.length < len) rpa[i].grow();
+          rpa[i].shrink();
+          if (rpa[i].l > 100) {
+            removePath(i);
+            for (let i = 0; i < rpa.length; i++) rpa[i].l = 0;
+            len++;
+          }
+        }
+        t = 0;
+      }
+      frac = t / dur;
+      draw();
+      requestAnimationFrame(animate);
+    }
+
+    onresize();
+
+    var draw = () => {
+      ctx.clearRect(-CSIZE, -CSIZE, 2 * CSIZE, 2 * CSIZE);	// TODO, remove, black on shrink
+      let pa = [new Path2D(), new Path2D(), new Path2D(), new Path2D()];
+      for (let i = 0; i < rpa.length; i++) {
+        pa[rpa[i].kidx % 4].addPath(rpa[i].getPath());
+      }
+      for (let i = 0; i < 4; i++) {
+        ctx.strokeStyle = colors[i % colors.length];
+        ctx.stroke(pa[i]);
+      }
+    }
+
+    setColors();
+
+    var pts2 = [];
+    var setPoints2 = () => {
+      let wc = (CSIZE - R) / R;
+      for (let w = 0; w < wc; w++) {
+        pts2[w] = [];
+        let ra = TP * Math.random();
+        let cc = Math.round((w + 1) * TP);
+        for (let c = 0; c < cc; c++) {
+          let a = ra + TP / cc * c;
+          if (a > TP) a -= TP;
+          pts2[w][c] = { "x": (w + 1) * R * Math.cos(a), "y": (w + 1) * R * Math.sin(a), "a": a, "w": w, "cpa": [] };
+          if (w == 0) pts2[w][c].d = true;
+        }
+        pts2[w].sort((a, b) => { return a.a - b.a; });
+      }
+    }
+
+    setPoints2();
+
+    for (let w = 0; w < pts2.length; w++) {
+      for (let c = 0; c < pts2[w].length; c++) {
+        // +in, +even, +out, -out, -even, -in
+        pts2[w][c].cpa[1] = pts2[w][(c + 1) % pts2[w].length];
+        pts2[w][c].cpa[4] = pts2[w][(c + pts2[w].length - 1) % pts2[w].length];
+        if (w == 0) {
+          pts2[w][c].cpa[0] = false;
+          pts2[w][c].cpa[5] = false;
+          for (let i = 0; i < pts2[1].length; i++) {
+            if (pts2[1][i].a > pts2[0][c].a) {
+              pts2[0][c].cpa[2] = pts2[1][i];
+              pts2[0][c].cpa[3] = pts2[1][(i + pts2[1].length - 1) % pts2[1].length];
+              break;
+            }
+          }
+        } else if (w == pts2.length - 1) {
+          pts2[w][c].cpa[2] = false;
+          pts2[w][c].cpa[3] = false;
+          let pta = pts2[pts2.length - 2];
+          for (let i = 0; i < pta.length; i++) {
+            if (pta[i].a > pts2[w][c].a) {
+              pts2[w][c].cpa[0] = pta[i];
+              pts2[w][c].cpa[5] = pta[(i + pta.length - 1) % pta.length];
+              break;
+            }
+          }
+        } else {
+          for (let i = 0; i < pts2[w - 1].length; i++) {
+            if (pts2[w - 1][i].a > pts2[w][c].a) {
+              pts2[w][c].cpa[0] = pts2[w - 1][i];
+              pts2[w][c].cpa[5] = pts2[w - 1][(i + pts2[w - 1].length - 1) % pts2[w - 1].length];
+              break;
+            }
+          }
+          for (let i = 0; i < pts2[w + 1].length; i++) {
+            if (pts2[w + 1][i].a > pts2[w][c].a) {
+              pts2[w][c].cpa[2] = pts2[w + 1][i];
+              pts2[w][c].cpa[3] = pts2[w + 1][(i + pts2[w + 1].length - 1) % pts2[w + 1].length];
+              break;
+            }
+          }
+        }
+      }
+    }
+
+    var rpa = new Array();
+
+    for (let i = 0; i < 36; i++) {
+      let rw = getRandomInt(0, pts2.length);
+      let rc = getRandomInt(0, pts2[rw].length);
+      let rpt = pts2[rw][rc];
+      while (rpt.d) {
+        rw = getRandomInt(0, pts2.length);
+        rc = getRandomInt(0, pts2[rw].length);
+        rpt = pts2[rw][rc];
+      }
+      rpa.push(new RPath(rpt, i));
+    }
+
+    var len = pts2[pts2.length - 1].length;
+    for (let i = 0; i < len; i++) {
+      for (let j = 0; j < rpa.length; j++) {
+        rpa[j].grow();
+      }
+    }
+
+    for (let i = 0; i < rpa.length; i++) {
+      if (rpa[i].pa.length > 2) {
+        rpa[i].gr = 1;
+        rpa[i].sh = 1;
+      }
+      if (rpa[i].pa.length < 2) removePath(i);
+    }
+
+    ctx.lineWidth = 0.7 * R;
+
+    start();
+  </script>
 </body>
 
 </html>
